@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <style>
+
       body {
         background-color: grey;
         margin-left: 5%;
       }
-
       h1 {
         color: white;
       }
-
-      p {
+      nav {
         color: white;
         font-family: verdana;
         text-align: center;
@@ -21,23 +19,20 @@
       .image {
         text-align: center;
       }
+      
     </style>
   </head>
-
-
+  
   <body>
-    <h1><a href="../../../index.html">Comrade Klaymore</a></h1>
-    <p>Lorem ipsum french fry dipsum into dat ketchup.</p>
 
-    <p class="image">
-      <img src="comic.png" alt="Elon's World Domination plan"/>
-    </p>
+    <h1><a href="index.html">Comrade Klaymore</a></h1>
 
-    <p class="comments">
-      <?php include('comments.txt'); ?>
-    </p>
-
+    <nav>
+      <a href="about/index.html">About</a> ~ 
+      <a href="comic/01/01/index.html">Comic</a> ~ 
+      <a href="https://www.youtube.com/channel/UCrLkMOV08B50cJFD2ocWdMA">Videos</a>
+    </nav>
+    
   </body>
-
-
+  
 </html>
