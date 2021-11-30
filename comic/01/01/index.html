@@ -5,21 +5,24 @@
     <style>
       body {
         background-color: grey;
+        text-align: center;
         margin-left: 5%;
+        margin-right: 5%;
       }
 
       h1 {
+        text-align: left;
         color: white;
       }
 
       p {
         color: white;
         font-family: verdana;
-        text-align: center;
         font-size: 20px;
       }
-      .image {
-        text-align: center;
+      .commentForm {
+        text-align: left;
+        display: table;
       }
     </style>
   </head>
@@ -30,10 +33,28 @@
     <p>Lorem ipsum french fry dipsum into dat ketchup.</p>
 
     <p class="image">
-      <img src="comic.png" alt="Elon's World Domination plan"/>
+      <img src="comic.png" alt="Elon's World Domination plan" style="height:1334px;width:750px;"/>
     </p>
-
+    
+    <p class="commenting">
+      Add a comment. If you want it edited or deleted then contact me.
+    </p>
+    <p class="commentForm">
+      <form align="left" action="addComment.php" method="get">
+        <label for="username">Name:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="comment">Comment:</label><br>
+        <input type="text" id="comment" name="comment">
+        <input type="submit" value="Submit">
+      </form>
+    </p>
+    
+    <p class="commentHeader">
+      Comments:
+    </p>
+    
     <p class="comments">
+      <iframe src="comments.txt" title="Comments" style="height:1334px;width:750px;"></iframe>
       <?php include('comments.txt'); ?>
     </p>
 
