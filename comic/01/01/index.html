@@ -4,21 +4,25 @@
   <head>
     <style>
       body {
-        background-color: grey;
-        text-align: center;
+        background-color: black;
         margin-left: 5%;
         margin-right: 5%;
-      }
-
-      h1 {
-        text-align: left;
-        color: white;
-      }
-
-      p {
         color: white;
         font-family: verdana;
-        font-size: 20px;
+        text-align: center;
+        font-size: 24px;
+      }
+      a:hover, a:visited, a:link, a:active {
+        text-decoration: none;
+        color: lightgreen;
+      }
+      h1 {
+        text-align: left;
+        font-size: 35px;
+      }
+      nav {
+        background-color: black;
+        font-size: 25px;
       }
       .commentForm {
         text-align: left;
@@ -30,15 +34,31 @@
 
   <body>
     <h1><a href="../../../index.html">Comrade Klaymore</a></h1>
-    <p>Lorem ipsum french fry dipsum into dat ketchup.</p>
+    
+    <nav>
+      <a href="../../../about/index.html">About</a> ~ 
+      <a href="../../../comic/01/01/index.html">Comic</a> ~ 
+      <a href="https://www.youtube.com/channel/UCrLkMOV08B50cJFD2ocWdMA">Videos</a>
+    </nav>
+    
+    
+    
+    <p>
+      <br />
+      Lorem ipsum french fry dipsum into dat ketchup.
+    </p>
 
     <p class="image">
       <img src="comic.png" alt="Elon's World Domination plan" style="height:1334px;width:750px;"/>
     </p>
     
     <p class="commenting">
-      Add a comment. If you want it edited or deleted then contact me.
+      Add a comment. <br />
+      If you want it edited or deleted then contact me.
+      <br />
+      <br />
     </p>
+    
     <p class="commentForm">
       <form align="left" action="addComment.php" method="get">
         <label for="username">Name:</label><br>
@@ -50,15 +70,25 @@
     </p>
     
     <p class="commentHeader">
+      <br />
+      <br />
       Comments:
     </p>
     
     <p class="comments">
-      <iframe src="comments.txt" title="Comments" style="height:1334px;width:750px;"></iframe>
-      <?php include('comments.txt'); ?>
+      <iframe id ="commentFrame" src="comments.txt" title="Comments" style="height:1000px;width:750px;border:none;"></iframe>
     </p>
 
   </body>
 
+  <script>
+    var frame = document.getElementById('commentFrame');
+      frame.onload = function () {
+          var body = frame.contentWindow.document.querySelector('body');
+          body.style.color = 'white';
+          body.style.fontSize = '18px';
+          body.style.lineHeight = '18px';
+      };
+  </script>
 
 </html>
