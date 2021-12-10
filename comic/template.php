@@ -38,28 +38,30 @@
       <a href=<?php echo $next;?>>></a>
       <a href="/comic/latest.php">>></a>
     </p>
-    
-    
-    
     <br />
+    
+    
+    
     <p class="commenting">
       Add a comment, don't be shy. <br />
       Contact me for edits or deletions. <br />
     </p>
+    <br />
     
-    <p class="commentForm">
-      <form align="left" action="addComment.php" method="post" id="commentForm">
-        <label for="username">Name</label><br>
-        <input type="text" id="username" name="username" required><br><br>
-        <label for="comment">Comment</label><br>
-        <textarea name="comment" form="commentForm" required></textarea><br><br>
-        <input type="submit" value="Submit">
-      </form>
-    </p>
+    
+    <form name="commentForm" action="addComment.php" method="post" id="commentForm">
+      <label for="username">Name</label><br>
+      <input type="text" id="username" name="username" required><br><br>
+      <label for="comment">Comment</label><br>
+      <textarea name="comment" form="commentForm" required></textarea><br><br>
+      <input type="submit" value="Submit">
+    </form>
+    <br />
+    <br />
+    
+    
     
     <p class="commentHeader">
-      <br />
-      <br />
       Comments:
     </p>
     

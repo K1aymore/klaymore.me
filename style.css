@@ -102,8 +102,10 @@
       justify-content: space-evenly;
     }
     .commentForm {
-      text-align: center;
-      display: table;
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
     }
     .commentHeader {
       margin-left: 27%;
