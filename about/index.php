@@ -3,6 +3,10 @@
 
   <?php include $_SERVER['DOCUMENT_ROOT'].'/style.php'; ?>
 
+  <head>
+    <title>About | Comrade Klaymore</title>
+  </head>
+
   <body>
     <?php include $_SERVER['DOCUMENT_ROOT'].'/header.html'; ?>
 
@@ -14,6 +18,9 @@
     </p>
     <p class="text">
       I've also made some videos on <a href="https://www.youtube.com/channel/UCrLkMOV08B50cJFD2ocWdMA">Youtube</a>.
+    </p>
+    <p class="text">
+     My sister has made some cool <a href="https://youtube.com/channel/UCC8U-ZPoaPM55mHps171puA"> animations.<a>
     </p>
     <br />
 

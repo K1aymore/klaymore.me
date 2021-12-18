@@ -3,6 +3,10 @@
 
   <?php include $_SERVER['DOCUMENT_ROOT'].'/style.php'; ?>
 
+  <head>
+    <title>Comic Placeholder</title>
+  </head>
+
   <body>
     <?php include $_SERVER['DOCUMENT_ROOT'].'/header.html'; ?>
     <br />
@@ -24,9 +28,9 @@
 
     
     
-    <p class="image">
+    <p class="comic">
       <a href="comic.png">
-      <img src="comic.png" alt=<?php include 'altText.txt';?> title=<?php include 'altText.txt';?> style="height:1334px;width:750px;"/>
+        <img src="comic.png" alt=<?php include 'altText.txt';?> title=<?php include 'altText.txt';?> />
       </a>
     </p>
     
@@ -49,7 +53,7 @@
     <br />
     
     
-    <form name="commentForm" action="addComment.php" method="post" id="commentForm">
+    <form name="commentForm" action="addComment.php" method="get" id="commentForm">
       <label for="username">Name</label><br>
       <input type="text" id="username" name="username" required><br><br>
       <label for="comment">Comment</label><br>
