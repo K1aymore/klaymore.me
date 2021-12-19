@@ -8,10 +8,10 @@
   $webos = strpos($_SERVER['HTTP_USER_AGENT'],"webOS");
   
   if ($android || $bberry || $iphone || $ipod || $webos== true) {
-    include $_SERVER['DOCUMENT_ROOT'].'/mobile.css';
+    echo '<link rel="stylesheet" href="/mobile.css">';
   }
   else {
-    include $_SERVER['DOCUMENT_ROOT'].'/style.css';
+    echo '<link rel="stylesheet" href="/style.css">';
   }
   
 ?>

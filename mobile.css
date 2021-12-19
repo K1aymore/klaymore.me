@@ -1,86 +1,80 @@
+body {
+  background-color: black;
+  margin-left: 0%;
+  margin-right: 0%;
+  color: white;
+  font-family: verdana;
+  text-align: center;
+  font-size: 35px;
+}
+.home {
+  text-align: center;
+  font-size: 70px;
+}
+nav {
+  font-size: 45px;
+}
 
-<head>
-  <style>
-    body {
-      background-color: black;
-      margin-left: 0%;
-      margin-right: 0%;
-      color: white;
-      font-family: verdana;
-      text-align: center;
-      font-size: 35px;
-    }
-    .home {
-      text-align: center;
-      font-size: 70px;
-    }
-    nav {
-      font-size: 45px;
-    }
-    
-    a:active, a:visited, a:link {
-      text-decoration: none;
-      color: #8FE98A;
-    }
-    a:hover {
-      text-decoration: none;
-      color: #87CEEB;
-    }
+a:active, a:visited, a:link {
+  text-decoration: none;
+  color: #8FE98A;
+}
+a:hover {
+  text-decoration: none;
+  color: #87CEEB;
+}
 
-    .text {
-      margin-left: 5%;
-      margin-right: 5%;
-      text-align: left;
-      text-indent:40px;
-    }
-    input[type=text], textarea {
-      background: #172117;
-      color: white;
-      border: 5px solid #8FE98A;
-      border-radius: 5px;
-      font-size: 30px;
-    }
-    textarea {
-      resize: vertical;
-      width: 70%;
-      height: 300px;
-    }
-    input[type=submit] {
-      background: #172117;
-      color: white;
-      border: 4px solid #8FE98A;
-      border-radius: 5px;
-      height: 76px;
-      width: 18%;
-      font: arial,sans-serif;
-      font-size: 36px;
-      text-shadow: none;
-     }
+.text {
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: left;
+  text-indent:40px;
+}
+input[type=text], textarea {
+  background: #172117;
+  color: white;
+  border: 5px solid #8FE98A;
+  border-radius: 5px;
+  font-size: 30px;
+}
+textarea {
+  resize: vertical;
+  width: 70%;
+  height: 300px;
+}
+input[type=submit] {
+  background: #172117;
+  color: white;
+  border: 4px solid #8FE98A;
+  border-radius: 5px;
+  height: 76px;
+  width: 18%;
+  font: arial,sans-serif;
+  font-size: 36px;
+  text-shadow: none;
+}
 
-    .comicArrows {
-      font-size: 50px;
-      margin-left: 5%;
-      margin-right: 5%;
-      display: flex;
-      justify-content: space-evenly;
-    }
-    .comic {
-      width: 100%;
-      height: auto;
-    }
-    .commentForm {
-      text-align: center;
-      display: table;
-    }
-    .commentHeader {
-      margin-left: 5%;
-      text-align: left;
-    }
-    .comments {
-      margin-left: 10%;
-      margin-right: 10%;
-      text-align: left
-    }
-
-  </style>
-</head>
+.comicArrows {
+  font-size: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.comic {
+  width: 100%;
+  height: auto;
+}
+.commentForm {
+  text-align: center;
+  display: table;
+}
+.commentHeader {
+  margin-left: 5%;
+  text-align: left;
+}
+.comments {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left
+}

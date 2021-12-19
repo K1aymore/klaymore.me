@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
-
-  <?php include $_SERVER['DOCUMENT_ROOT'].'/style.php'; ?>
-
   <head>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/style.php'; ?>
     <title>Comic Placeholder</title>
   </head>
 
