@@ -1,0 +1,16 @@
+
+{% include "partials/header.njk" %}
+
+  <comic>
+    <a href="comic.png">
+      <img src="comic.png" alt="{{ altText }}" title="{{ altText }}" />
+    </a>
+  </p>
+
+  <comments>
+  {% block content %}
+    {{ content | safe }}
+  {% endblock %}
+  </comments>
+
+{% include "partials/htmlend.njk" %} 

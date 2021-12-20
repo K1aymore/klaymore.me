@@ -1,0 +1,11 @@
+
+{% include "partials/header.njk" %}
+
+  <main>
+  {% block content %}
+    <h1>{{ title }}</h1>
+    {{ content | safe }}
+  {% endblock %}
+  </main>
+
+{% include "partials/htmlend.njk" %} 
