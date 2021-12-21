@@ -1,7 +1,7 @@
 <?php
-//   header("Location: ".$_POST['url']);
+  header("Location: ".$_POST['url']);
 
-  $str = "\n".$_POST['username'].":\n&emsp;&emsp;".$_POST['comment']."\n";
+  $str = "\n".htmlentities($_POST['username']).":\n&emsp;&emsp;". htmlentities($_POST['comment'])." {.comments}\n";
   
   $file = "/synced/Websites/klaymore.me/src/comic/".$_POST['chapter']."/".$_POST['page']."/index.md";
   
@@ -9,6 +9,5 @@
   fwrite($myfile, $str);
   fclose($myfile);
   
-  echo $file;
-//   exit;
+  exit;
 ?>
