@@ -1,1 +1,0 @@
-/synced/Websites/klaymore.me/comic/template.php
