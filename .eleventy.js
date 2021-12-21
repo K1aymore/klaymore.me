@@ -1,7 +1,25 @@
 // 11ty configuration
+
+
+
+
+
 module.exports = function (eleventyConfig) {
+  const markdownIt = require('markdown-it')
+  const markdownItAttrs = require('markdown-it-attrs')
+
+  const markdownItOptions = {
+    html: true,
+    breaks: true,
+    linkify: true
+  }
+  const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
+  eleventyConfig.setLibrary('md', markdownLib)
+  
+  
   eleventyConfig.addPassthroughCopy("src/*.css");
   eleventyConfig.addPassthroughCopy("src/**/*.js");
+  eleventyConfig.addPassthroughCopy("src/**/*.php");
   
   eleventyConfig.addPassthroughCopy("src/**/*.png");
   eleventyConfig.addPassthroughCopy("src/*.ico");
@@ -14,6 +32,8 @@ module.exports = function (eleventyConfig) {
   };
 };
  
+
+
 //module.exports = function (eleventyConfig) {
   // Output directory: _site
 

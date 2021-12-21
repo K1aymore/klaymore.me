@@ -1,23 +1,46 @@
 
-{% include "partials/header.njk" %}
+{% include "partials/header.njk" %} <br />
 
 {% include "partials/comicArrows.njk" %}
   
     <comic>
-      <a href="comic.png">
+      <a href="{{ image }}">
         <img src="{{ image }}" alt="{{ altText }}" title="{{ altText }}" />
       </a>
     </p>
 
-{% include "partials/comicArrows.njk" %}
+{% include "partials/comicArrows.njk" %} <br />
+
+    <p class="commenting">
+      Add a comment, don't be shy. <br />
+      Contact me for edits or deletions. <br />
+    </p>
+    <br />
+
+    <form name="commentForm" action="addComment.php" method="post" id="commentForm">
+      <label for="username">Name</label><br>
+      <input type="text" name="username" id="username" required><br><br>
+      <label for="comment">Comment</label><br>
+      <textarea name="comment" form="commentForm" required></textarea><br><br>
+      <input type="hidden" name="url" id="formURL">
+      <input type="hidden" name="chapter" id="formChapter">
+      <input type="hidden" name="page" id="formPage">
+      <input type="submit" value="Submit">
+    </form>
+    <br />
+    <br />
+
+    <p class="commentHeader">
+      Comments:
+    </p>
   
-    <comments>
     {% block content %}
       {{ content | safe }}
     {% endblock %}
-    </comments>
 
+
+  </body>
   
-  <script src="arrows.js"></script>
+  <script src="comic.js"></script>
 
-{% include "partials/htmlend.njk" %} 
+</html>

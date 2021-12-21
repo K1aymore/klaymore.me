@@ -3,14 +3,14 @@ title: Comic | Comrade Klaymore
 description: Comic page
 layout: comic.njk
 altText: Elon's World Domination plan
-image: 01.png
+image: comic.png
 ---
 
-CocoPanthree:<br />
-&emsp;&emsp;Hey bro wassaaaap
+CocoPanthree:
+&emsp;&emsp;Hey bro wassaaaap {.comments}
 
-CocoPanthree:<br />
-&emsp;&emsp;Yus
+CocoPanthree:
+&emsp;&emsp;Yus {.comments}
 
-Your:<br />
-&emsp;&emsp;mom
+Your:
+&emsp;&emsp;mom {.comments}

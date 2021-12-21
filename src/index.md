@@ -1,5 +1,5 @@
 ---
-title: 11ty starter site
-description: This is a test dont look at it
+title: Comrade Klaymore
+description: The official website of the man, the myth, and the legend.
 layout: page.njk
 ---
