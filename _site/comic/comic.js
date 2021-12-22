@@ -23,7 +23,6 @@ console.log("next: " + next);
 
 
 
-
 let backArrows = document.getElementsByClassName('backArrow');
 for (let i = 0; i < backArrows.length; i++) {
   backArrows[i].setAttribute("href", "../" + back);

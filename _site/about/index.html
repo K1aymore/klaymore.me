@@ -6,10 +6,17 @@
     <title>About | Comrade Klaymore</title>
     <meta name="description" content="About the dude known as Comrade Klaymore.">
     <meta name="robots" content="noodp,noydir">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style.css" id="cssLink">
   </head>
   
-  <body>
+  <script type="text/javascript">
+    function cssMobile() {
+      let link = document.getElementByID('cssLink');
+      link.setAttribute("href", "/mobile.css");
+    }
+  </script>
+  
+  <body onload="cssMobile()">
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" sizes="72x72" href="/favicon.png" />
     <link rel="apple-touch-icon" sizes="150x150" href="/apple-touch-icon.png" />
@@ -31,12 +38,12 @@
 <p class="text">This website is running on a computer I found on the side of the road. If stuff isn't working or being weird I'm probably messing with something. Also my internet turns off from 21:50 to like 5:30.</p>
 <p class="text">My server's running NixOS and using Nginx for the website. The website's coded in HTML, CSS, and I'm working on Javascript and PHP.</p>
 <p class="text">I've also made some videos on <a href="https://www.youtube.com/channel/UCrLkMOV08B50cJFD2ocWdMA" target="_blank" rel="noopener">Youtube.</a></p>
-<p>My sister has made some cool <a href="https://youtube.com/channel/UCC8U-ZPoaPM55mHps171puA" target="_blank" rel="noopener">animations.</a> {.text}<br>
-<br /></p>
+<p class="text">My sister has made some cool <a href="https://youtube.com/channel/UCC8U-ZPoaPM55mHps171puA" target="_blank" rel="noopener">animations.</a></p>
+<br />
 <p class="text">Contact me:<br>
 Matrix: @klaymore:klaymore.me<br>
 Discord: Klaymore#8518</p>
 
   
-  </body>
+  </body>  
 </html>

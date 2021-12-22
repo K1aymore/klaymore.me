@@ -5,10 +5,17 @@
     <title>{{ title }}</title>
     <meta name="description" content="{{ description }}">
     <meta name="robots" content="noodp,noydir">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style.css" id="cssLink">
   </head>
   
-  <body>
+  <script type="text/javascript">
+    function cssMobile() {
+      let link = document.getElementByID('cssLink');
+      link.setAttribute("href", "/mobile.css");
+    }
+  </script>
+  
+  <body onload="cssMobile()">
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" sizes="72x72" href="/favicon.png" />
     <link rel="apple-touch-icon" sizes="150x150" href="/apple-touch-icon.png" />

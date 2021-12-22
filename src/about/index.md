@@ -10,7 +10,8 @@ My server's running NixOS and using Nginx for the website. The website's coded i
 
 I've also made some videos on [Youtube.](https://www.youtube.com/channel/UCrLkMOV08B50cJFD2ocWdMA){target="_blank" rel="noopener"} {.text}
 
-My sister has made some cool [animations.](https://youtube.com/channel/UCC8U-ZPoaPM55mHps171puA){target="_blank" rel="noopener"} {.text}
+My sister has made some cool [animations.](https://youtube.com/channel/UCC8U-ZPoaPM55mHps171puA){target="_blank" rel="noopener"} {.text} 
+
 <br />
 
 Contact me:
