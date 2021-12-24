@@ -4,6 +4,8 @@ description: Comic page
 layout: comic.njk
 altText: Elon's World Domination plan
 image: comic.png
+width: 750px
+height: 1334px
 ---
 
 CocoPanthree:

@@ -2,10 +2,10 @@
 {% include "partials/header.njk" %} <br />
 
 {% include "partials/comicArrows.njk" %}
-  
+
     <comic>
       <a href="{{ image }}">
-        <img src="{{ image }}" title="{{ altText }}" width="750" height="1334" />
+        <img src="{{ image }}" title="{{ altText }}" width="{{ width }}" height="{{ height }}" />
 <!--          alt="{{ altText }}"  -->
       </a>
     </p>
@@ -17,7 +17,7 @@
       New comments processed on the fly. <br /><br />
       Sometimes it flies a little slow <br />
       Just wait for a minute or so. <br /><br />
-      
+
       If you're feeling extra jazzy <br />
       Use *italics* to make words snazzy. <br /><br />
     </p>
@@ -37,14 +37,14 @@
     <p class="commentHeader">
       Comments:
     </p>
-  
+
     {% block content %}
       {{ content | safe }}
     {% endblock %}
 
 
   </body>
-  
+
   <script src="comic.js"></script>
 
 </html>
