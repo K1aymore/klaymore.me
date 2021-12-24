@@ -1,15 +1,15 @@
-
+animRate
 function delay(milliseconds) {
   return new Promise(resolve => {
     setTimeout(resolve, milliseconds);
   });
 }
 
-let art = document.getElementById('hubVideos');
-let time = 250;
+let vidArt = document.getElementById('hubVideos');
+let animRate = 250;
 
 async function video() {
-  art.textContent = String.raw`
+  vidArt.textContent = String.raw`
   _________________________________
   |        _     _                 |
   |  __ __(_) __| | ___  ___  ___  |
@@ -17,8 +17,8 @@ async function video() {
   |   \_/ |_|\__/_|\___|\___//__/  |
   |                                |
   |________________________________|`;
-  await delay(time);
-  art.textContent = String.raw`
+  await delay(animRate);
+  vidArt.textContent = String.raw`
   _________________________________
   |        _     _                 |
   |       (_) __| | ___  ___  ___  |
@@ -26,8 +26,8 @@ async function video() {
   |  \ v /|_|\__/_|\___|\___//__/  |
   |   \_/                          |
   |________________________________|`;
-  await delay(time);
-  art.textContent = String.raw`
+  await delay(animRate);
+  vidArt.textContent = String.raw`
   _________________________________
   |              _                 |
   |        _  __| | ___  ___  ___  |
@@ -35,8 +35,8 @@ async function video() {
   |  __ __| |\__/_|\___|\___//__/  |
   |  \ V /|_|                      |
   |___\_/__________________________|`;
-  await delay(time);
-  art.textContent = String.raw`
+  await delay(animRate);
+  vidArt.textContent = String.raw`
   _________________________________
   |                                |
   |              _  ___  ___  ___  |
@@ -44,8 +44,8 @@ async function video() {
   |  \ V /(_)/ _' |\___|\___//__/  |
   |   \_/ | |\__/_|                |
   |_______|_|______________________|`;
-  await delay(time);
-  art.textContent = String.raw`
+  await delay(animRate);
+  vidArt.textContent = String.raw`
   _________________________________
   |                                |
   |  __ __ _             ___  ___  |
@@ -53,8 +53,8 @@ async function video() {
   |   \_/ | | __| |/ -_)\___//__/  |
   |       |_|/ _' |\___|           |
   |__________\__/_|________________|`;
-  await delay(time);
-  art.textContent = String.raw`
+  await delay(animRate);
+  vidArt.textContent = String.raw`
   _________________________________
   |  __ __ _                       |
   |  \ V /(_)    _            ___  |
@@ -62,10 +62,10 @@ async function video() {
   |       |_|/ _' | ___ / _ \/__/  |
   |          \__/_|/ -_)\___/      |
   |________________\___|___________|`;
-  await delay(time);
+  await delay(animRate);
 
   // while(true) {
-  art.textContent = String.raw`
+  vidArt.textContent = String.raw`
   _________________________________
   |       (_)    _                 |
   |  __ __| | __| |                |
@@ -73,8 +73,8 @@ async function video() {
   |   \_/    \__/_|/ -_) ___ (_-/  |
   |                \___|/ _ \/__/  |
   |_____________________\___/______|`;
-  await delay(time);
-  art.textContent = String.raw`
+  await delay(animRate);
+  vidArt.textContent = String.raw`
   _________________________________
   |        _  __| |                |
   |       (_)/ _' | ___            |
@@ -82,8 +82,8 @@ async function video() {
   |  \ V /|_|      \___|/ _ \ ___  |
   |   \_/               \___/(_-/  |
   |__________________________/__/__|`;
-  await delay(time);
-  art.textContent = String.raw`
+  await delay(animRate);
+  vidArt.textContent = String.raw`
   _________________________________
   |        _     _                 |
   |  __ __(_) __| | ___  ___  ___  |
@@ -91,7 +91,7 @@ async function video() {
   |   \_/ |_|\__/_|\___|\___//__/  |
   |                                |
   |________________________________|`;
-  await delay(time);
+  await delay(animRate);
   // }
 }
 
