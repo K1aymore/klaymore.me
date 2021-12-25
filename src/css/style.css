@@ -38,6 +38,9 @@ a:hover {
   text-indent:40px;
 }
 
+
+
+/* Input */
 input[type=text], textarea {
   background: #172117;
   border: 5px solid #8FE98A;
@@ -66,8 +69,6 @@ textarea {
   width: 35%;
   height: 175px;
 }
-
-
 input[type=submit] {
   background: #172117;
   color: white;
@@ -91,6 +92,10 @@ input[type=submit]:hover {
   transition-timing-function: linear;
 }
 
+
+
+
+/* Comic styling */
 .comicArrows {
   font-size: 28px;
   margin-left: 25%;
@@ -116,4 +121,8 @@ input[type=submit]:hover {
   margin-left: 28%;
   margin-right: 28%;
   text-align: left
+}
+
+
+
 }

@@ -1,9 +1,5 @@
 // 11ty configuration
 
-
-
-
-
 module.exports = function (eleventyConfig) {
   const markdownIt = require('markdown-it')
   const markdownItAttrs = require('markdown-it-attrs')
@@ -15,15 +11,15 @@ module.exports = function (eleventyConfig) {
   }
   const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
   eleventyConfig.setLibrary('md', markdownLib)
-  
-  
-  eleventyConfig.addPassthroughCopy("src/*.css");
+
+
+  eleventyConfig.addPassthroughCopy("src/**/*.css");
   eleventyConfig.addPassthroughCopy("src/**/*.js");
   eleventyConfig.addPassthroughCopy("src/**/*.php");
-  
+
   eleventyConfig.addPassthroughCopy("src/**/*.png");
   eleventyConfig.addPassthroughCopy("src/*.ico");
-  
+
   return {
     dir: {
       input: 'src',
@@ -31,7 +27,7 @@ module.exports = function (eleventyConfig) {
     },
   };
 };
- 
+
 
 
 //module.exports = function (eleventyConfig) {
