@@ -9,10 +9,10 @@ body {
 }
 .home {
   text-align: center;
-  font-size: 70px;
+  font-size: 200%;
 }
 nav {
-  font-size: 45px;
+  font-size: 160%;
 }
 
 a:active, a:visited, a:link {
@@ -34,7 +34,24 @@ a:hover {
 
 
 /* Hub */
+.hubFloat {
+    width: 100%;
+    text-align:center;
+}
 .hubItem {
+    padding: 30px;
+    margin: 0 auto;
+    display: inline-block;
+}
+#hubComicDiv {
+  margin-left: 0%;
+  font-size: 130%;
+}
+#hubVideoDiv {
+  margin-left: 0%;
+}
+
+/* .hubItem {
   display: block;
   float: none;
 }
@@ -42,7 +59,7 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   font-size: 130%;
-}
+} */
 
 
 
@@ -53,6 +70,8 @@ input[type=text], textarea {
   border: 5px solid #8FE98A;
   border-radius: 5px;
   font-size: 30px;
+  width: auto;
+  height: auto;
 }
 textarea {
   resize: vertical;
@@ -91,12 +110,12 @@ input[type=submit] {
   display: table;
 }
 .commentHeader {
-  margin-left: 5%;
+  margin-left: 8%;
   text-align: left;
 }
 .comments {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 11%;
+  margin-right: 11%;
   text-align: left
 }
 
