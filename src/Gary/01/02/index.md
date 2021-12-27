@@ -6,7 +6,7 @@ layout: page.njk
 ---
 <br />
 
-  <p>No peeking you hecker. Go back.</p>
+  <p>End of the line bub.</p>
   </body>
   
   <script src="redirect.js"></script>
