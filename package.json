@@ -2,5 +2,17 @@
   "dependencies": {
     "markdown-it": "^12.3.0",
     "markdown-it-attrs": "^4.1.1"
-  }
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "name": "klaymore.me",
+  "version": "1.0.0",
+  "description": "The website of Comrade Klaymore",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "npx @11ty/eleventy"
+  },
+  "author": "Klaymore",
+  "license": "ISC"
 }
