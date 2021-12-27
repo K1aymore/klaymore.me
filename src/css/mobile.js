@@ -2,6 +2,6 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   var link = document.createElement('link');
   link.rel = 'stylesheet';
   link.type = 'text/css';
-  link.href = '/css/mobile/style.css';
+  link.href = '/css/mobile.css';
   document.getElementsByTagName('HEAD')[0].appendChild(link);
 }

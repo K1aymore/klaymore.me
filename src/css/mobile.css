@@ -33,6 +33,19 @@ a:hover {
 
 
 
+/* Hub */
+.hubItem {
+  display: block;
+  float: none;
+}
+#hubComicDiv {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 130%;
+}
+
+
+
 /* Input */
 input[type=text], textarea {
   background: #172117;

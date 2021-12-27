@@ -3,21 +3,22 @@
   </head>
 {% include "partials/nav.njk" %}
 {# {{ content | safe }} #}
-  <pre style="display: inline-block; float: left; margin-left: 22%; margin-right: 10%;"><a href="/comic/01/01">
-  ________________________
-  |                       |
-  |      C O M I C S      |
-  |  _______    ________  |
-  | |  o    |  |  o     | |
-  | |  |    |  |  |   o | |
-  | |_/\____|  |_/\___|_| |
-  |  ________   ________  |
-  | |  o  o  | |  o     | |
-  | |  |  |  | |  |  ___| |
-  | |_/\__/\_| |_/\_|___| |
-  |_______________________|</a></pre>
+  <div class="hubFloat">
+  <pre class="hubItem" id="hubComicDiv"><a href="/comic/01/01/">
+________________________
+|                       |
+|      C O M I C S      |
+|  _______    ________  |
+| |  o    |  |  o     | |
+| |  |    |  |  |   o | |
+| |_/\____|  |_/\___|_| |
+|  ________   ________  |
+| |  o  o  | |  o     | |
+| |  |  |  | |  |  ___| |
+| |_/\__/\_| |_/\_|___| |
+|_______________________|</a></pre>
 
-  <pre style="display: inline-block; float: left;"><a href="https://www.youtube.com/channel/UCrLkMOV08B50cJFD2ocWdMA" id="hubVideos">
+  <pre class="hubItem" id="hubVideoDiv"><a href="/videos/" id="hubVideos">
   _________________________________
   |                                |
   |                                |
@@ -31,6 +32,7 @@
   |                                |
   |________________________________|</a></pre>
 
+  </div>
   </body>
 
   <script src="hub.js"></script>

@@ -40,6 +40,35 @@ a:hover {
 
 
 
+/* Hub */
+.hubFloat {
+    width: 100%;
+    text-align:center;
+}
+.hubItem {
+    padding: 30px;
+    margin: 0 auto;
+    display: inline-block;
+}
+#hubComicDiv {
+  margin-left: 6%;
+}
+
+/* .hubItem {    This aligns it well but not when the browser is shrunk in half
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+#hubComicDiv {
+  margin-left: 5%;
+}
+#hubVideoDiv {
+  margin-left: 10%;
+} */
+
+
+
+
 /* Input */
 input[type=text], textarea {
   background: #172117;
