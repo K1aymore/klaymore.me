@@ -37,9 +37,11 @@ for (let i = 0; i < nextArrows.length; i++) {
   nextArrows[i].setAttribute("href", "../" + next);
 }
 
+
 let form = document.getElementById('commentForm');
-form.setAttribute("action", "https://klaymore.me" + dirname + "addComment.php");
+form.setAttribute("action", "https://klaymore.me/addComment.php");
 
 document.getElementById('formURL').setAttribute("value", window.location.href);
+document.getElementById('formComic').setAttribute("value", comic);
 document.getElementById('formChapter').setAttribute("value", zChapter);
 document.getElementById('formPage').setAttribute("value", zPage);
