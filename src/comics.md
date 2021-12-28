@@ -1,12 +1,12 @@
 ---
-title: About | Comrade Klaymore
-description: About the dude known as Comrade Klaymore.
+title: Comics | Comrade Klaymore
+description: Pick a comic, any comic
 layout: page.njk
 ---
 <br />
 <br />
 
-<a href="/Gary/01/01" style="font-size: 300%;">
+<a href="/Gary/" style="font-size: 300%;">
     Gary
 </a>
 <br /><br />

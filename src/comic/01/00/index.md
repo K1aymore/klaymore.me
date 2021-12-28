@@ -1,5 +1,5 @@
 ---
-title: No Peeksies | Comrade Klaymore
+title: Comrade Klaymore
 description: Go back to whence you came
 layout: page.njk
 

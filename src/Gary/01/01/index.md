@@ -1,6 +1,6 @@
 ---
 title: Gary | Comrade Klaymore
-description: Groovy Gary
+description: The God of Groovy
 layout: comic.njk
 altText: He's tubular man
 image: comic.png

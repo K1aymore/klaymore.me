@@ -1,5 +1,12 @@
 ---
-title: Comrade Klaymore
-description: The official website of the man, the myth, and the legend.
+title: Gary | Comrade Klaymore
+description: The God of Groovy
 layout: page.njk
 ---
+<br />
+
+<h2>
+  <a href="01/01/">
+    The Beginning
+  </a>
+</h2>

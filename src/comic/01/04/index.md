@@ -1,14 +1,16 @@
 ---
-title: No Peeksies | Comrade Klaymore
-description: Go back to whence you came
+title: Too Far | Comrade Klaymore
+description: Nope go back
 layout: page.njk
 
 ---
 <br />
 
-  <p>End of the line bub.</p>
+  <p>You've gone too far.</p>
   </body>
-  
-  <script src="redirect.js"></script>
-  
+
+  <script>
+    window.location.replace("../../latest");
+  </script>
+
 </html>
