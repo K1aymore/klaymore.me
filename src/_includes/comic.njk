@@ -14,7 +14,7 @@
 
 {% include "partials/comicArrows.njk" %} <br />
 
-    <p class="commenting">
+    <p id="commenting">
       Add a comment, don't be shy <br />
       New comments processed on the fly. <br /><br />
 
@@ -25,7 +25,7 @@
       Use *italics* to make words snazzy. <br /><br />
     </p>
 
-    <form name="commentForm" action="addComment.php" method="post" id="commentForm">
+    <form name="commentForm" action="https://klaymore.me/addComment.php" method="post" id="commentForm">
       <label for="username">Name</label><br>
       <input type="text" name="username" id="username" required><br><br>
       <label for="comment">Comment</label><br>
@@ -38,13 +38,12 @@
     </form>
     <br />
 
-    <p class="commentHeader">
+    <p id="commentHeader">
       Comments:
     </p>
 
-    {% block content %}
-      {{ content | safe }}
-    {% endblock %}
+    <p id="comments">
+    </p>
 
 
   </body>
