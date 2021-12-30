@@ -1,7 +1,7 @@
 ---
 title: About | Comrade Klaymore
 description: About the dude known as Comrade Klaymore.
-layout: page.njk
+layout: plain.njk
 ---
 
 This website is running on a computer I found on the side of the road. If stuff isn't working or being weird I'm probably messing with something. Also my internet turns off from 21:50 to like 5:30. {.text}

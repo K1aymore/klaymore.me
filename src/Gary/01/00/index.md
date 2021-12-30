@@ -1,7 +1,7 @@
 ---
 title: No Peeksies | Comrade Klaymore
 description: Go back to whence you came
-layout: page.njk
+layout: plain.njk
 
 ---
 <br />

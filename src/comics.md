@@ -1,7 +1,7 @@
 ---
 title: Comics | Comrade Klaymore
 description: Pick a comic, any comic
-layout: page.njk
+layout: plain.njk
 ---
 <br />
 <br />

@@ -1,7 +1,7 @@
 ---
 title: Gary | Comrade Klaymore
 description: The God of Groovy
-layout: page.njk
+layout: plain.njk
 ---
 <br />
 

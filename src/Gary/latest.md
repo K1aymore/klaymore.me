@@ -1,7 +1,7 @@
 ---
 title: Latest Comic | Comrade Klaymore
 description: Frestest page off the drawing tablet
-layout: page.njk
+layout: plain.njk
 
 ---
 <br />

@@ -1,7 +1,7 @@
 ---
 title: About | Comrade Klaymore
 description: About the dude known as Comrade Klaymore.
-layout: page.njk
+layout: plain.njk
 ---
 <br />
 

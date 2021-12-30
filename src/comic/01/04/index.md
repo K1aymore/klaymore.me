@@ -1,7 +1,7 @@
 ---
 title: Too Far | Comrade Klaymore
 description: Nope go back
-layout: page.njk
+layout: plain.njk
 
 ---
 <br />
