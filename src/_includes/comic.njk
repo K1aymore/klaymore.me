@@ -39,12 +39,12 @@
     <br />
 
     <p id="commentHeader">
-      Comments:
+      Comments
     </p>
 
-    <p id="comments">
-    </p>
-
+    {% block content %}
+      {{ content | safe }}
+    {% endblock %}
 
   </body>
 
