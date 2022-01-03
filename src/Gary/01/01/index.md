@@ -12,7 +12,7 @@ pageNum: 1
 ---
 
 amongus:
-&emsp;&emsp;amongus
+amongus
 *amongus*
 amongus
 *amongus* {.comments}

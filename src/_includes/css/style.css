@@ -122,11 +122,17 @@ input[type=submit]:hover {
   margin-left: 24%;
   margin-right: 24%;
   text-align: left;
+  text-indent: 30px;
+
   padding-left: 1.5%;
   padding-right: 1.3%;
   padding-top: .6%;
   padding-bottom: .9%;
   border: 3px solid #4d7f4b;
+}
+.comments::first-line {
+  font-size: 27px;
+  color: #87CEEB;
 }
 
 </style>
