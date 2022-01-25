@@ -13,8 +13,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setLibrary('md', markdownLib)
 
 
-  eleventyConfig.addPassthroughCopy("src/**/*.css");
-  eleventyConfig.addPassthroughCopy("src/**/*.js");
+
+  eleventyConfig.addPassthroughCopy("src/**/*.txt");
   eleventyConfig.addPassthroughCopy("src/**/*.php");
 
   eleventyConfig.addPassthroughCopy("src/**/*.png");

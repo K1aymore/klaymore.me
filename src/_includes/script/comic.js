@@ -38,3 +38,12 @@ document.getElementById('formURL').setAttribute("value", window.location.href);
 document.getElementById('formComic').setAttribute("value", comic);
 document.getElementById('formChapter').setAttribute("value", zChapter);
 document.getElementById('formPage').setAttribute("value", zPage);
+
+
+// $.ajax({
+//    url: "https://klaymore.me/" + comic + "/" + chapter + "/" + page + "/comments.txt",
+//    dataType: "text",
+//    success: function(data) {
+//      document.getElementById('comments').textContent = data;
+//    }
+// });
