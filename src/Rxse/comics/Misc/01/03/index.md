@@ -2,10 +2,10 @@
 title: Comic | Rxse
 description: Comic page
 layout: comicRxse.njk
-altText: Must go faster
-image: comic.png
-width: 960px
-height: auto
+altText: Too much junk in here
+image: comic.jpg
+width: 1008px
+height: 1344px
 comic: Misc
 chapter: 1
 pageNum: 3

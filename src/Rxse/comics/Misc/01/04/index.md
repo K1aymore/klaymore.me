@@ -1,16 +1,12 @@
 ---
-title: Too Far | Rxse
-description: Nope go back
-layout: plainRxse.njk
-
+title: Comic | Rxse
+description: Comic page
+layout: comicRxse.njk
+altText: We will never sleep until justice is served
+image: comic.png
+width: 707px
+height: 929px
+comic: Misc
+chapter: 1
+pageNum: 4
 ---
-<br />
-
-  <p>You've gone too far.</p>
-  </body>
-
-  <script>
-    window.location.replace("../../latest");
-  </script>
-
-</html>

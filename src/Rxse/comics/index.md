@@ -6,10 +6,10 @@ layout: plainRxse.njk
 <br />
 <br />
 
-<a href="Gary/01/01/" style="font-size: 300%;">
+<a href="Gary/01/01/" style="font-size: 200%;">
     Gary
 </a>
 <br /><br />
-<a href="Misc/01/01">
+<a href="Misc/01/01" style="font-size: 200%;">
     Misc
 </a>
