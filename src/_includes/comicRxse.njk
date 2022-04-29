@@ -1,0 +1,55 @@
+
+{% include "partials/head.njk" %}
+  </head>
+{% include "partials/navRxse.njk" %}
+
+{% include "partials/comicArrows.njk" %}
+
+    <comic>
+      <a href="{{ image }}">
+        <img src="{{ image }}" title="{{ altText }}" width="{{ width }}" height="{{ height }}" />
+<!--          alt="{{ altText }}"  -->
+      </a>
+    </p>
+
+{% include "partials/comicArrows.njk" %} <br />
+
+    <p id="commenting">
+      Add a comment, don't be shy <br />
+      New comments processed on the fly. <br /><br />
+
+      Sometimes it flies a little slow <br />
+      Just wait for a minute or so. <br /><br />
+
+      If you're feeling extra jazzy <br />
+      Use *italics* to make words snazzy. <br /><br />
+    </p>
+
+    <form name="commentForm" action="https://klaymore.me/Rxse/addComment.php" method="post" id="commentForm">
+      <label for="username">Name</label><br>
+      <input type="text" name="username" id="username" required><br><br>
+      <label for="comment">Comment</label><br>
+      <textarea name="comment" form="commentForm" required></textarea><br><br>
+      <input type="hidden" name="url" id="formURL">
+      <input type="hidden" name="comic" id="formComic">
+      <input type="hidden" name="chapter" id="formChapter">
+      <input type="hidden" name="page" id="formPage">
+      <input type="submit" value="Submit">
+    </form>
+    <br />
+
+    <p id="commentHeader">
+      Comments
+    </p>
+
+    {% block content %}
+      {{ content | safe }}
+    {% endblock %}
+
+  </body>
+
+  <script>
+{% include "script/comic.js" %}
+  </script>
+
+</html>
