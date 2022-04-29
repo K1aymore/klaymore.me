@@ -6,7 +6,4 @@ altText: He's a beaut
 image: comic.png
 width: 750px
 height: 1334px
-comic: comic
-chapter: 1
-pageNum: 2
 ---

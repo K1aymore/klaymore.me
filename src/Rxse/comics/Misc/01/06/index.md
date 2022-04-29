@@ -6,7 +6,4 @@ altText: lol leg
 image: comic.png
 width: 1207px
 height: 907px
-comic: Misc
-chapter: 1
-pageNum: 6
 ---

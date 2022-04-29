@@ -6,7 +6,4 @@ altText: Too much junk in here
 image: comic.jpg
 width: 1008px
 height: 1344px
-comic: Misc
-chapter: 1
-pageNum: 3
 ---
