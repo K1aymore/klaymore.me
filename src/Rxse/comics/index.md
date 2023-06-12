@@ -9,6 +9,7 @@ layout: plainRxse.njk
 <a href="Searis/" style="font-size: 200%;">
     Searis
 </a>
+<br /><br />
 <a href="Gary/" style="font-size: 200%;">
     Gary
 </a>
