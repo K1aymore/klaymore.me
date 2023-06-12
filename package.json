@@ -4,7 +4,7 @@
     "markdown-it-attrs": "^4.1.3"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1"
+    "@11ty/eleventy": "^2.0.1"
   },
   "name": "klaymore.me",
   "version": "1.0.0",
