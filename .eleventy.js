@@ -21,6 +21,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/**/*.jpg");
   eleventyConfig.addPassthroughCopy("src/*.ico");
 
+  eleventyConfig.addPassthroughCopy("src/**/*.mp4");
+  eleventyConfig.addPassthroughCopy("src/**/*.webm");
+  eleventyConfig.addPassthroughCopy("src/**/*.mkv");
+
   return {
     dir: {
       input: 'src',

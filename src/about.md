@@ -14,6 +14,7 @@ I've also made some videos on [Youtube.](https://www.youtube.com/channel/UCrLkMO
 
 Contact me:
 Matrix: @klaymore:klaymore.me
-Email: klaymore@protonmail.com
+Email: klaymorer@protonmail.com
 Discord: Klaymore#8518
+Phone: +1-206-586-5145
 Session: 05ad8ae2f6bd48abf695988af934bf30fdcfd3783ddde1ae8942492800e44e9e21 {.text}
